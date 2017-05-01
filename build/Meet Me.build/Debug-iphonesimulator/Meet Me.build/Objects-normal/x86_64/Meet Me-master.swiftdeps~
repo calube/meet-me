@@ -1,0 +1,8 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "f02eb5ab29ed03f0eb15534a7c7669eb"
+build_time: [546933097, 307360000]
+inputs:
+  "/Users/Calube/Developer/Meet Me/Meet Me/Locations.swift": [546842033, 0]
+  "/Users/Calube/Developer/Meet Me/Meet Me/ViewController.swift": [546931642, 0]
+  "/Users/Calube/Developer/Meet Me/Meet Me/NearbyUsersViewController.swift": [546933097, 0]
+  "/Users/Calube/Developer/Meet Me/Meet Me/AppDelegate.swift": [546933097, 0]

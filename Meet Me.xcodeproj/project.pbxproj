@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C4FDDDD1EB5784E009ADF7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4FDDDC1EB5784E009ADF7D /* AppDelegate.swift */; };
+		3C4FDDDF1EB5784E009ADF7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4FDDDE1EB5784E009ADF7D /* ViewController.swift */; };
+		3C4FDDE21EB5784E009ADF7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C4FDDE01EB5784E009ADF7D /* Main.storyboard */; };
+		3C4FDDE41EB5784E009ADF7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C4FDDE31EB5784E009ADF7D /* Assets.xcassets */; };
+		3C4FDDE71EB5784E009ADF7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C4FDDE51EB5784E009ADF7D /* LaunchScreen.storyboard */; };
+		3C4FDDF11EB57C18009ADF7D /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C4FDDF01EB57C18009ADF7D /* GoogleToolboxForMac.framework */; };
+		3C70D56D1EB5824400984C84 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C70D56C1EB5824400984C84 /* CoreLocation.framework */; };
+		3C70D6EB1EB5886E00984C84 /* NSObject+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C70D6EA1EB5886E00984C84 /* NSObject+Test.m */; };
+		3C70D6FE1EB5894A00984C84 /* GeoFire.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C70D6F51EB5894A00984C84 /* GeoFire.m */; };
+		3C70D6FF1EB5894A00984C84 /* GFBase32Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C70D6F71EB5894A00984C84 /* GFBase32Utils.m */; };
+		3C70D7001EB5894A00984C84 /* GFGeoHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C70D6F91EB5894A00984C84 /* GFGeoHash.m */; };
+		3C70D7011EB5894A00984C84 /* GFGeoHashQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C70D6FB1EB5894A00984C84 /* GFGeoHashQuery.m */; };
+		3C70D7021EB5894A00984C84 /* GFQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C70D6FD1EB5894A00984C84 /* GFQuery.m */; };
+		3C70D7041EB5A05D00984C84 /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C70D7031EB5A05D00984C84 /* Locations.swift */; };
+		3C79F50C1EB57DAA00F25023 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C79F50B1EB57DAA00F25023 /* GoogleService-Info.plist */; };
+		3CFACDBA1EB6F62A003E9E88 /* NearbyUsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFACDB91EB6F62A003E9E88 /* NearbyUsersViewController.swift */; };
+		CE081D840B5772C258DBEAC4 /* Pods_Meet_Me.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97EC6DDFCE9A815B9CF5D3E3 /* Pods_Meet_Me.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C40E36A631DB5EB69F99FB9 /* Pods-Meet Me.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meet Me.release.xcconfig"; path = "Pods/Target Support Files/Pods-Meet Me/Pods-Meet Me.release.xcconfig"; sourceTree = "<group>"; };
+		3C4FDDD91EB5784E009ADF7D /* Meet Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meet Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C4FDDDC1EB5784E009ADF7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C4FDDDE1EB5784E009ADF7D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C4FDDE11EB5784E009ADF7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C4FDDE31EB5784E009ADF7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C4FDDE61EB5784E009ADF7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C4FDDE81EB5784E009ADF7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C4FDDF01EB57C18009ADF7D /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleToolboxForMac.framework; path = "build/Debug-iphonesimulator/GoogleToolboxForMac/GoogleToolboxForMac.framework"; sourceTree = "<group>"; };
+		3C70D56C1EB5824400984C84 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3C70D6E81EB5886D00984C84 /* Meet Me-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Meet Me-Bridging-Header.h"; sourceTree = "<group>"; };
+		3C70D6E91EB5886E00984C84 /* NSObject+Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Test.h"; sourceTree = "<group>"; };
+		3C70D6EA1EB5886E00984C84 /* NSObject+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Test.m"; sourceTree = "<group>"; };
+		3C70D6EE1EB5894A00984C84 /* GeoFire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoFire.h; sourceTree = "<group>"; };
+		3C70D6EF1EB5894A00984C84 /* GFCircleQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFCircleQuery.h; sourceTree = "<group>"; };
+		3C70D6F01EB5894A00984C84 /* GFQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFQuery.h; sourceTree = "<group>"; };
+		3C70D6F11EB5894A00984C84 /* GFRegionQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFRegionQuery.h; sourceTree = "<group>"; };
+		3C70D6F21EB5894A00984C84 /* GeoFire-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GeoFire-Prefix.pch"; sourceTree = "<group>"; };
+		3C70D6F41EB5894A00984C84 /* GeoFire+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GeoFire+Private.h"; sourceTree = "<group>"; };
+		3C70D6F51EB5894A00984C84 /* GeoFire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoFire.m; sourceTree = "<group>"; };
+		3C70D6F61EB5894A00984C84 /* GFBase32Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFBase32Utils.h; sourceTree = "<group>"; };
+		3C70D6F71EB5894A00984C84 /* GFBase32Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFBase32Utils.m; sourceTree = "<group>"; };
+		3C70D6F81EB5894A00984C84 /* GFGeoHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFGeoHash.h; sourceTree = "<group>"; };
+		3C70D6F91EB5894A00984C84 /* GFGeoHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFGeoHash.m; sourceTree = "<group>"; };
+		3C70D6FA1EB5894A00984C84 /* GFGeoHashQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFGeoHashQuery.h; sourceTree = "<group>"; };
+		3C70D6FB1EB5894A00984C84 /* GFGeoHashQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFGeoHashQuery.m; sourceTree = "<group>"; };
+		3C70D6FC1EB5894A00984C84 /* GFQuery+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GFQuery+Private.h"; sourceTree = "<group>"; };
+		3C70D6FD1EB5894A00984C84 /* GFQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFQuery.m; sourceTree = "<group>"; };
+		3C70D7031EB5A05D00984C84 /* Locations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
+		3C79F50B1EB57DAA00F25023 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3CFACDB91EB6F62A003E9E88 /* NearbyUsersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearbyUsersViewController.swift; sourceTree = "<group>"; };
+		4D802013CCE3523578DB98D0 /* Pods-Meet Me.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meet Me.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Meet Me/Pods-Meet Me.debug.xcconfig"; sourceTree = "<group>"; };
+		97EC6DDFCE9A815B9CF5D3E3 /* Pods_Meet_Me.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Meet_Me.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C4FDDD61EB5784E009ADF7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C70D56D1EB5824400984C84 /* CoreLocation.framework in Frameworks */,
+				3C4FDDF11EB57C18009ADF7D /* GoogleToolboxForMac.framework in Frameworks */,
+				CE081D840B5772C258DBEAC4 /* Pods_Meet_Me.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18C7FD9623022CFCF0B750EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D802013CCE3523578DB98D0 /* Pods-Meet Me.debug.xcconfig */,
+				3C40E36A631DB5EB69F99FB9 /* Pods-Meet Me.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3C4FDDD01EB5784E009ADF7D = {
+			isa = PBXGroup;
+			children = (
+				3C70D6EC1EB5894A00984C84 /* GeoFire */,
+				3C4FDDDB1EB5784E009ADF7D /* Meet Me */,
+				3C4FDDDA1EB5784E009ADF7D /* Products */,
+				18C7FD9623022CFCF0B750EE /* Pods */,
+				EBD58EC3D65AB40014226AF7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3C4FDDDA1EB5784E009ADF7D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C4FDDD91EB5784E009ADF7D /* Meet Me.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C4FDDDB1EB5784E009ADF7D /* Meet Me */ = {
+			isa = PBXGroup;
+			children = (
+				3C4FDDDC1EB5784E009ADF7D /* AppDelegate.swift */,
+				3C4FDDDE1EB5784E009ADF7D /* ViewController.swift */,
+				3CFACDB91EB6F62A003E9E88 /* NearbyUsersViewController.swift */,
+				3C4FDDE01EB5784E009ADF7D /* Main.storyboard */,
+				3C4FDDE31EB5784E009ADF7D /* Assets.xcassets */,
+				3C4FDDE51EB5784E009ADF7D /* LaunchScreen.storyboard */,
+				3C4FDDE81EB5784E009ADF7D /* Info.plist */,
+				3C79F50B1EB57DAA00F25023 /* GoogleService-Info.plist */,
+				3C70D6E91EB5886E00984C84 /* NSObject+Test.h */,
+				3C70D6EA1EB5886E00984C84 /* NSObject+Test.m */,
+				3C70D6E81EB5886D00984C84 /* Meet Me-Bridging-Header.h */,
+				3C70D7031EB5A05D00984C84 /* Locations.swift */,
+			);
+			path = "Meet Me";
+			sourceTree = "<group>";
+		};
+		3C70D6EC1EB5894A00984C84 /* GeoFire */ = {
+			isa = PBXGroup;
+			children = (
+				3C70D6ED1EB5894A00984C84 /* API */,
+				3C70D6F21EB5894A00984C84 /* GeoFire-Prefix.pch */,
+				3C70D6F31EB5894A00984C84 /* Implementation */,
+			);
+			name = GeoFire;
+			path = "Meet Me/GeoFire";
+			sourceTree = "<group>";
+		};
+		3C70D6ED1EB5894A00984C84 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				3C70D6EE1EB5894A00984C84 /* GeoFire.h */,
+				3C70D6EF1EB5894A00984C84 /* GFCircleQuery.h */,
+				3C70D6F01EB5894A00984C84 /* GFQuery.h */,
+				3C70D6F11EB5894A00984C84 /* GFRegionQuery.h */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		3C70D6F31EB5894A00984C84 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				3C70D6F41EB5894A00984C84 /* GeoFire+Private.h */,
+				3C70D6F51EB5894A00984C84 /* GeoFire.m */,
+				3C70D6F61EB5894A00984C84 /* GFBase32Utils.h */,
+				3C70D6F71EB5894A00984C84 /* GFBase32Utils.m */,
+				3C70D6F81EB5894A00984C84 /* GFGeoHash.h */,
+				3C70D6F91EB5894A00984C84 /* GFGeoHash.m */,
+				3C70D6FA1EB5894A00984C84 /* GFGeoHashQuery.h */,
+				3C70D6FB1EB5894A00984C84 /* GFGeoHashQuery.m */,
+				3C70D6FC1EB5894A00984C84 /* GFQuery+Private.h */,
+				3C70D6FD1EB5894A00984C84 /* GFQuery.m */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		EBD58EC3D65AB40014226AF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C70D56C1EB5824400984C84 /* CoreLocation.framework */,
+				3C4FDDF01EB57C18009ADF7D /* GoogleToolboxForMac.framework */,
+				97EC6DDFCE9A815B9CF5D3E3 /* Pods_Meet_Me.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C4FDDD81EB5784E009ADF7D /* Meet Me */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C4FDDEB1EB5784E009ADF7D /* Build configuration list for PBXNativeTarget "Meet Me" */;
+			buildPhases = (
+				47734E4D901E4EFA93894FD1 /* [CP] Check Pods Manifest.lock */,
+				3C4FDDD51EB5784E009ADF7D /* Sources */,
+				3C4FDDD61EB5784E009ADF7D /* Frameworks */,
+				3C4FDDD71EB5784E009ADF7D /* Resources */,
+				7BAF0C632AB6B99A5378D39B /* [CP] Embed Pods Frameworks */,
+				F9351263972A5860F8601F15 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Meet Me";
+			productName = "Meet Me";
+			productReference = 3C4FDDD91EB5784E009ADF7D /* Meet Me.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C4FDDD11EB5784E009ADF7D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Caleb Davis";
+				TargetAttributes = {
+					3C4FDDD81EB5784E009ADF7D = {
+						CreatedOnToolsVersion = 8.3.2;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3C4FDDD41EB5784E009ADF7D /* Build configuration list for PBXProject "Meet Me" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C4FDDD01EB5784E009ADF7D;
+			productRefGroup = 3C4FDDDA1EB5784E009ADF7D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C4FDDD81EB5784E009ADF7D /* Meet Me */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C4FDDD71EB5784E009ADF7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C4FDDE71EB5784E009ADF7D /* LaunchScreen.storyboard in Resources */,
+				3C4FDDE41EB5784E009ADF7D /* Assets.xcassets in Resources */,
+				3C79F50C1EB57DAA00F25023 /* GoogleService-Info.plist in Resources */,
+				3C4FDDE21EB5784E009ADF7D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		47734E4D901E4EFA93894FD1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7BAF0C632AB6B99A5378D39B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Meet Me/Pods-Meet Me-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9351263972A5860F8601F15 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Meet Me/Pods-Meet Me-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C4FDDD51EB5784E009ADF7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C70D7041EB5A05D00984C84 /* Locations.swift in Sources */,
+				3C4FDDDF1EB5784E009ADF7D /* ViewController.swift in Sources */,
+				3C70D6FF1EB5894A00984C84 /* GFBase32Utils.m in Sources */,
+				3C70D7011EB5894A00984C84 /* GFGeoHashQuery.m in Sources */,
+				3CFACDBA1EB6F62A003E9E88 /* NearbyUsersViewController.swift in Sources */,
+				3C70D6FE1EB5894A00984C84 /* GeoFire.m in Sources */,
+				3C70D6EB1EB5886E00984C84 /* NSObject+Test.m in Sources */,
+				3C70D7001EB5894A00984C84 /* GFGeoHash.m in Sources */,
+				3C4FDDDD1EB5784E009ADF7D /* AppDelegate.swift in Sources */,
+				3C70D7021EB5894A00984C84 /* GFQuery.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3C4FDDE01EB5784E009ADF7D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C4FDDE11EB5784E009ADF7D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C4FDDE51EB5784E009ADF7D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C4FDDE61EB5784E009ADF7D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C4FDDE91EB5784E009ADF7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C4FDDEA1EB5784E009ADF7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C4FDDEC1EB5784E009ADF7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D802013CCE3523578DB98D0 /* Pods-Meet Me.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphonesimulator/GoogleToolboxForMac",
+				);
+				INFOPLIST_FILE = "Meet Me/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.calebdavis.Meet-Me";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Meet Me/Meet Me-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3C4FDDED1EB5784E009ADF7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C40E36A631DB5EB69F99FB9 /* Pods-Meet Me.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphonesimulator/GoogleToolboxForMac",
+				);
+				INFOPLIST_FILE = "Meet Me/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.calebdavis.Meet-Me";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Meet Me/Meet Me-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C4FDDD41EB5784E009ADF7D /* Build configuration list for PBXProject "Meet Me" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C4FDDE91EB5784E009ADF7D /* Debug */,
+				3C4FDDEA1EB5784E009ADF7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C4FDDEB1EB5784E009ADF7D /* Build configuration list for PBXNativeTarget "Meet Me" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C4FDDEC1EB5784E009ADF7D /* Debug */,
+				3C4FDDED1EB5784E009ADF7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C4FDDD11EB5784E009ADF7D /* Project object */;
+}
